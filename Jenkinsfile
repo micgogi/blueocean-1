@@ -3,7 +3,7 @@ pipeline {
     docker {
       args '''args  "--entrypoint=\'\' "
 -v /root/.m2:/root/.m2'''
-      image 'maven:3-jdk-8'
+      image 'maven:3.3.9-jdk-8'
     }
 
   }
