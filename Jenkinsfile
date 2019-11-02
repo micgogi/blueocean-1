@@ -11,13 +11,7 @@ pipeline {
       steps {
         sh '''
 
-echo "Hello World"
-
-
-
-
-mvn clean
-mvn install package'''
+echo "Hello World"'''
       }
     }
   }
