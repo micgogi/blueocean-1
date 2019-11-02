@@ -9,12 +9,15 @@ pipeline {
 
       }
       steps {
-        sh '''mvn -version
+        sh '''
+
+echo "Hello World"
 
 
 
 
-'''
+mvn clean
+mvn install package'''
       }
     }
   }
